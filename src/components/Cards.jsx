@@ -11,11 +11,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { showBlogs } from "../features/blogSlice";
 import { Button } from "@/components/ui/button";
 import { FaPlus } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 const Cards = () => {
   const { blogs, loading } = useSelector((state) => state.app);
 
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const tagsArr = blogs.map((item, i) => item.tags);
   console.log(tagsArr);
@@ -34,7 +36,7 @@ const Cards = () => {
       <div className="grid gap-4 container px-4 mx-auto pb-4 md:grid-cols-2 lg:grid-cols-3 ">
         {blogs.length > 0 &&
           blogs.map((blog, i) => (
-            <Card className="w-full max-w-2xl py-2" key={blog.id}>
+            <Card className="w-full max-w-2xl py-2 gap-2" key={blog.id}>
               <CardHeader>
                 <CardTitle>
                   <p className="text-lg">{blog.title}</p>
@@ -60,8 +62,13 @@ const Cards = () => {
                 />
                 <p>{blog.summary}</p>
               </CardContent>
-              <CardFooter>
-                <Button variant="link">Read More</Button>
+              <CardFooter className="flex justify-end py-0">
+                <Button
+                  variant="link"
+                  onClick={() => navigate(`/blogs/blog/${blog.id}`)}
+                >
+                  Read More
+                </Button>
               </CardFooter>
             </Card>
           ))}
