@@ -1,7 +1,7 @@
 {
   "blogs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "AI is Changing the Way We Write",
       "summary": "Discover how AI tools are assisting writers in crafting faster and more efficiently.",
       "coverImage": "https://images.unsplash.com/photo-1731963094554-c5c981ccdefd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -11,7 +11,7 @@
       "content": "Artificial Intelligence is revolutionizing the writing process, helping both amateur and professional writers craft content faster and smarter. From grammar correction to content expansion and tone adjustments, AI tools like ChatGPT and Jasper are reshaping the creative process. They reduce writer's block, streamline editing, and boost productivity, allowing writers to focus more on creativity and less on repetitive tasks. As these tools become more intuitive, they are not replacing writers but rather amplifying their capabilities, ushering in a future where human creativity and machine intelligence work hand-in-hand."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Top 5 AI Tools for Bloggers in 2025",
       "summary": "An updated list of powerful AI tools that help bloggers brainstorm, write, and optimize posts.",
       "coverImage": "https://plus.unsplash.com/premium_photo-1661265944044-bc7248ae54f9?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -21,7 +21,7 @@
       "content": "The blogging world in 2025 is driven by intelligent automation, and AI tools are at the heart of it. From AI-based content generators to SEO optimizers and grammar assistants, these tools empower bloggers to create, edit, and publish content faster than ever. This blog highlights five essential AI tools that every blogger should know—tools that help with brainstorming ideas, writing engaging content, optimizing for search engines, and analyzing reader engagement. Whether you're a hobbyist or a professional blogger, these tools can save hours and significantly improve the quality of your blog."
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "How to Use Hugging Face with JavaScript",
       "summary": "Learn how to connect to Hugging Face models using plain JavaScript for AI blog features.",
       "coverImage": "https://plus.unsplash.com/premium_vector-1713913589831-611a54b0641c?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -31,7 +31,7 @@
       "content": "Integrating machine learning into web applications has become more accessible thanks to Hugging Face. In this blog, we explore how JavaScript developers can interact with Hugging Face APIs to bring natural language processing (NLP) features directly into their websites. From summarization to sentiment analysis and even translation, Hugging Face offers powerful tools that are now just a few lines of JavaScript away. If you’ve been curious about adding AI to your frontend projects, this guide breaks it down into simple, actionable steps—no Python required!"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Boost SEO with AI-generated Meta Tags",
       "summary": "Leverage AI to create optimized meta descriptions and titles for your blog automatically.",
       "coverImage": "https://images.unsplash.com/photo-1674027001834-719c347d1eca?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -41,7 +41,7 @@
       "content": "Search Engine Optimization (SEO) is no longer just about keywords; it’s about context and relevance. This blog shows how AI can assist in generating effective meta tags that are not only keyword-rich but also contextually aligned with your blog content. Tools like ChatGPT and Copy.ai can instantly generate meta descriptions and titles, saving time and improving click-through rates. With AI, bloggers can ensure every post is optimized for visibility and engagement, helping it rank higher on search engines with minimal manual effort."
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Why Svelte Could Be the Next Big Frontend Framework",
       "summary": "Explore how Svelte compares to React and why developers are migrating.",
       "coverImage": "https://images.unsplash.com/photo-1577648188599-291bb8b831c3?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -51,7 +51,7 @@
       "content": "Svelte is gaining traction as a powerful alternative to React and Vue. Unlike traditional frameworks, Svelte compiles your code to highly optimized JavaScript at build time, resulting in faster performance and smaller bundle sizes. This blog discusses why developers are migrating to Svelte, especially for projects where speed and simplicity are top priorities. With a clean syntax, reduced boilerplate, and a vibrant community, Svelte is poised to become the next big thing in frontend development."
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Creating a SmartBlog UI with Tailwind and Shadcn",
       "summary": "Build elegant blog UIs using Tailwind CSS and the Shadcn component library.",
       "coverImage": "https://images.unsplash.com/photo-1586717799252-bd134ad00e26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -61,7 +61,7 @@
       "content": "Building a modern and responsive blog UI has never been easier thanks to Tailwind CSS and Shadcn UI components. This guide walks through setting up a clean and accessible design for your blog using utility-first classes and prebuilt, customizable components. From layout grids to cards, buttons, and modals, Shadcn’s design system combined with Tailwind's flexibility helps developers craft polished UIs with minimal effort. Whether you're prototyping or launching a production site, this combination ensures fast development and beautiful results."
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Use JSON Server to Mock Your Blog API",
       "summary": "Learn how to create a fake REST API for your frontend blog using json-server.",
       "coverImage": "https://images.unsplash.com/photo-1610986602538-431d65df4385?q=80&w=2107&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -71,7 +71,7 @@
       "content": "Testing frontend applications without a backend can be frustrating, but JSON Server solves that problem. This blog post explains how to use JSON Server to quickly spin up a mock REST API. You’ll learn how to configure routes, serve static data, and simulate CRUD operations—all with a simple JSON file. This tool is perfect for solo developers, rapid prototyping, and demo environments where backend support is not yet ready. Get up and running in minutes and streamline your development workflow."
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Integrate AI Suggestions in Blog Comments",
       "summary": "Let users get smart suggestions when they write or reply to comments.",
       "coverImage": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -81,7 +81,7 @@
       "content": "Imagine a blog where users get real-time suggestions as they comment—this is now possible with AI integration. This post covers how to use natural language models to suggest completions, tone changes, or even summaries while a user types. By analyzing context and sentiment, AI can offer helpful prompts that enhance discussions and reduce toxic behavior. Adding such features not only improves user experience but also keeps conversations meaningful and on-topic. This is the future of blog interactivity."
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "How to Add Theme Switching to Your Blog",
       "summary": "A quick guide to implementing dark/light mode in your React blog project.",
       "coverImage": "https://images.unsplash.com/photo-1572096082124-9e8ac147b085?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -91,7 +91,7 @@
       "content": "Modern users expect UI personalization, and theme switching is now a standard feature. This tutorial demonstrates how to add light and dark mode toggling in a React-based blog using context and local storage. You’ll learn how to design a seamless user interface that remembers the user's preferences and dynamically adjusts styles. From Tailwind configurations to toggle components, we cover everything you need to deliver a polished, customizable blog experience that works across devices and screen sizes."
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Optimize React Performance in Blog Projects",
       "summary": "Tips and tricks to reduce re-renders and speed up your React blog app.",
       "coverImage": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -99,6 +99,36 @@
       "date": "2025-05-08",
       "tags": ["React", "Performance", "Optimization"],
       "content": "React performance bottlenecks can silently kill your blog's user experience. In this article, we explore practical strategies to boost speed and reduce unnecessary renders. Topics include memoization with `React.memo`, using `useCallback` and `useMemo`, lazy loading components, and optimizing dependency arrays. We also discuss analyzing render behavior using React DevTools and Lighthouse. Apply these tips to keep your React blog fast, smooth, and responsive for all users."
+    },
+    {
+      "id": "9d08",
+      "title": "fsdfsdf",
+      "content": "sdfsdfsdfs",
+      "tags": []
+    },
+    {
+      "id": "f1e3",
+      "title": "2nd blog",
+      "content": "My second blog",
+      "tags": []
+    },
+    {
+      "id": "57c7",
+      "title": "3rd ",
+      "content": "asasdasdasd",
+      "tags": []
+    },
+    {
+      "id": "718f",
+      "title": "4th",
+      "content": "dfsdfsd",
+      "tags": []
+    },
+    {
+      "id": "24c2",
+      "title": "dfsdf",
+      "content": "sdsdfsdfsdf",
+      "tags": []
     }
   ]
 }

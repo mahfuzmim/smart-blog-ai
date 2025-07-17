@@ -29,7 +29,10 @@ const Cards = () => {
   return (
     <>
       <div className="container mx-auto px-4 mb-8 md:mb-12  flex justify-end">
-        <Button className="bg-lime-600">
+        <Button
+          className="bg-lime-600"
+          onClick={() => navigate("/create-blog")}
+        >
           Create New <FaPlus />
         </Button>
       </div>
@@ -43,7 +46,7 @@ const Cards = () => {
                 </CardTitle>
                 <CardDescription className="mt-2">
                   {" "}
-                  {blog.tags.map((tag, index) => (
+                  {blog?.tags?.map((tag, index) => (
                     <span
                       key={index}
                       className="inline-flex items-center rounded-md bg-gray-100 px-2 py-1 text-sm font-medium text-gray-600"
