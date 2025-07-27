@@ -1,14 +1,30 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
+import {
+  collection,
+  getDocs,
+  addDoc,
+  deleteDoc,
+  doc,
+} from "firebase/firestore";
+import { db } from "../config/firebase";
+
 const API_URL = "http://localhost:3000/blogs";
+
+const blogRefs = collection(db, "blogs");
 
 // fetching blogs
 
 export const showBlogs = createAsyncThunk("showBlogs", async () => {
-  const response = await axios.get(API_URL);
-  console.log(response.data);
-  return response.data;
+  const response = await getDocs(blogRefs);
+  const blogs = response.docs.map((doc) => ({
+    id: doc.id,
+    ...doc.data(),
+  }));
+  console.log(blogs);
+
+  return blogs;
 });
 
 // createing blogs
@@ -18,12 +34,13 @@ export const createBlog = createAsyncThunk(
     try {
       console.log(blogData);
 
-      // const response = await axios.post("http://localhost:3000/blogs", {
-      //   blogData,
-      // });
-      // console.log(response);
+      const response = await axios.post(
+        "http://localhost:3000/blogs",
+        blogData
+      );
+      console.log(response);
 
-      // return response.data;
+      return response.data;
     } catch (err) {
       return rejectWithValue(err.response?.data || err.message);
     }

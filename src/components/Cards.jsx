@@ -19,12 +19,10 @@ const Cards = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const tagsArr = blogs.map((item, i) => item.tags);
-  console.log(tagsArr);
-
   useEffect(() => {
     dispatch(showBlogs());
   }, [dispatch]);
+  console.log("blogs", blogs);
 
   return (
     <>
@@ -37,8 +35,8 @@ const Cards = () => {
         </Button>
       </div>
       <div className="grid gap-4 container px-4 mx-auto pb-4 md:grid-cols-2 lg:grid-cols-3 ">
-        {blogs.length > 0 &&
-          blogs.map((blog, i) => (
+        {blogs?.length > 0 &&
+          blogs?.map((blog, i) => (
             <Card className="w-full max-w-2xl py-2 gap-2" key={blog.id}>
               <CardHeader>
                 <CardTitle>

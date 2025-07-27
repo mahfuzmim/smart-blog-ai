@@ -61,11 +61,37 @@ const CreateBlog = () => {
 
   const handleCreateButton = async (e) => {
     e.preventDefault();
-    dispatch(createBlog(blogContentObj));
+    let imgUrl = "";
+    if (selectedFile) {
+      const fromData = new FormData();
+      fromData.append("file", selectedFile);
+      fromData.append("upload_preset", "blogimages");
+      fromData.append("cloud_name", "deke7dahd");
+      try {
+        const img = await axios.post(
+          "https://api.cloudinary.com/v1_1/deke7dahd/image/upload",
+          fromData
+        );
+        imgUrl = img.data.secure_url;
+      } catch (err) {
+        console.log(err);
+      }
+    }
+    const blogObj = {
+      title: blogContentObj.title,
+      content: blogContentObj.content,
+      tags: blogContentObj.tags || [],
+      coverImage: imgUrl,
+      author: "Arman Rahman",
+      date: new Date().toISOString().split("T")[0],
+    };
+    console.log(blogObj);
 
-    const response = await axios.post("http://localhost:3000/blogs", {
-      blogContentObj,
-    });
+    dispatch(createBlog(blogObj));
+
+    // const response = await axios.post("http://localhost:3000/blogs", {
+    //   blogContentObj,
+    // });
   };
 
   return (
